@@ -1,0 +1,26 @@
+package ncs.test4;
+/*
+ - name:String
+- price:int
+- quantity:int
+
++Product()
++Product(name:String,price:in
+t, quantity:int)
++information():String
++setXXX()
++getXXX()
+ */
+public class Product {
+//필드	
+	String name;
+	int price;
+	int quantify;
+//기본생성자	
+	public Product() {
+	 
+	}
+//필수생성자
+	
+
+}

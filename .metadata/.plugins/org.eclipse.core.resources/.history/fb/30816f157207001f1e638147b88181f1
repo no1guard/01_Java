@@ -1,0 +1,9 @@
+package cc;
+
+public class zz {
+ public static void main(String[] args) {
+	if (true)
+		System.out.println("if문에서 실행됌");
+	System.out.println("aa");
+}
+}

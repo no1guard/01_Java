@@ -1,0 +1,9 @@
+package cc;
+
+public class zz {
+ public static void main(String[] args) {
+	 int grade=2;
+	 int coupon ;
+	  
+}
+}

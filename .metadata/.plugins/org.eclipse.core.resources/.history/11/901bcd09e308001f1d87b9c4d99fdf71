@@ -1,0 +1,52 @@
+package ncs.test5;
+
+public class Book {
+//필드 
+	private String title;
+	private String author;
+	private int price;
+	private String publisher;
+	double discountRet;
+	
+	//기본생성자 
+	public Book() {
+		 
+	}
+
+	//필수생성자
+	
+	//Getter
+	//Setter
+	public String getTitle() {
+		return title;
+	}
+	public Book(String title, String author, int price, String publisher, double discountRet) {
+		 
+		this.title = title;
+		this.author = author;
+		this.price = price;
+		this.publisher = publisher;
+		this.discountRet = discountRet;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public String getPublisher() {
+		return publisher;
+	}
+	public double getDiscountRet() {
+		return discountRet;
+	}
+
+	@Override
+	public String toString() {
+		return "Book [title=" + title + ", author=" + author + ", price=" + price + ", publisher=" + publisher
+				+ ", discountRet=" + discountRet +  "]";
+	}
+
+
+}

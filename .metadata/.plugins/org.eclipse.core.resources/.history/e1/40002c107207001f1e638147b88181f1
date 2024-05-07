@@ -1,0 +1,10 @@
+package cc;
+
+public class zz {
+ public static void main(String[] args) {
+	int a=2;
+	int b=3;
+	System.out.println(a!=b);//a랑 b가달라서 true !는 반대라는뜻 =같냐 
+	System.out.println(!true);
+}
+}
