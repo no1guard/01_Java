@@ -26,8 +26,6 @@ public Inventory(String productName, Date putDate, int putAmount) {
 	this.putAmount = putAmount;
 	//this.getAmount = getAmount;
 	//this.inventoryAmount = inventoryAmount;
-	
-	//hi
 }
 
 
