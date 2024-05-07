@@ -15,7 +15,7 @@ public class PersonMain {
 			
 			Person 사람1=new Person("김영희",10);
 			bw.write(사람1.toString());
-			System.out.println("저장이 완료되었습니다.");
+			System.out.println("저장이 완료되었습니다.");//
 			
 			bw.close();
 		} catch (IOException e) {

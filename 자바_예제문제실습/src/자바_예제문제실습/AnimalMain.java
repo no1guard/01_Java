@@ -19,6 +19,7 @@ public class AnimalMain {
 			Animal 동물 =new Animal("멧돼지",3);
 			//toString으로 출력되는 내용을 저장
 			bw.write(동물.toString());
+		 
 			System.out.println("파일이 정상적으로 저장되었습니다.");
 			
 		
